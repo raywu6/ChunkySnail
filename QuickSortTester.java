@@ -3,6 +3,16 @@
 // Lab01 -- What Does the Data Say?
 // 2018-03-13
 
+
+/**
+   Our QuickSortTester.java has two methods: a time(int[]) method, and a main method.
+
+   In our main method, we have a for loop which runs 11 iterations, and in each iteration we create 11 arrays ranging from sizes 10 thousand to 100 million using the buildArray function in QuickSort.java. We kept the maximum number in each array the same in order to ensure that the only independent variable would be the size of the array. We then call the time(int[]) method on each of the arrays to test QuickSort with eleven trials of eleven arrays each.
+
+   In our time(int[]) method, a long variable named beforeTime holds the value of the current time in milliseconds since epoch. Then, the array is sorted using QuickSort, before a long variable named afterTime is bound to the value of the current time in milliseconds since epoch. Finally, the function prints in the csv format the array length, followed by the delta of the two long variables.
+*/
+
+
 import java.lang.*;
 
 public class QuickSortTester
