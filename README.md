@@ -24,5 +24,5 @@ In our ``time(int[])`` method, a ``long`` variable named ``beforeTime`` holds th
 ## Results
 ![ChunkySnail_Scatterplot](https://i.imgur.com/G9nJRRw.png).
 
-## Conclusions
+## Conclusion
 It appears that our QuickSort is O(n), or linear time. It appears that our QuickSort is O(n), or linear time. The graph shows that our initial hypothesis was wrong. Based on our review of the code, we could not find why the algorithm appears to run in linear time, and our general consensus is that the algorithm could be running slower due to other computer processes running in the background.
